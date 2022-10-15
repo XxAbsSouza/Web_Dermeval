@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Destroça</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/robot-solid.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="menu">
+        <header class="navbar navbar-expand-lg navbar-dark fixed-top py-4 col-12">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" class="logo ms-5"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#galeria">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#especificacoes">Especificações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#robocup">Robocup e Next</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#grupo">Quem está por trás</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#edu">Outros robôs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Venha investir Conosco</a>
+                        </li>
+                </div>
+            </div>
+        </header>
+    </nav>
+
+
+    <main
+        class="container-fluid bg-container-1 hero d-flex flex-column align-items-center justify-content-center text-center">
+        <div class="row">
+            <div class="col-12 p-5">
+                <h1 class="text-white">O taldo Destroça</h1>
+                <p class="text-white">Projeto de robótica com o fim de criar um robô a partir do zero, <br>para
+                    introduzir aos alunos a robótica educacional e os <br>conceitos de programação por trás da mesma</p>
+                <a href="#sobre"><button type="button" class="btn btn-outline-info hero-info">Mais
+                        informações</button><span class="hero-icon"><i class="fa-solid fa-angles-down"></i></span></a>
+            </div>
+        </div>
+    </main>
+
+    <div class="container-fluid padding-zero" id="sobre">
+        <section class="row sobre align-items-center">
+            <div class="sobre-txt col-12 col-sm-12 col-md-7 d-flex flex-column
+                    align-items-center justify-content-center p-5"  >
+                <p class="py-5 ps-5 mb-5 text-start bg">
+                    O projeto foi <span class="sobre-p">concebido pela FIAP</span> e consiste no <span
+                        class="sobre-p">desenvolvimento e
+                        documentação de um robô</span> para competir com outros
+                    robôs, a fim de integrar conhecimentos e técnicas de todas as
+                    disciplinas
+                    dos alunos do
+                    primeiro ano do curso de Sistemas
+                    de Informação
+                </p>
+                <p class="py-5 pe-5 mb-5 text-end bg2">Nosso robô,<span class="sobre-p"> O Taldo Destroça</span>, é
+                    <span class="sobre-p">muito mais</span> que um robô feito para briga!<br>Ao vê-lo nas arenas
+                    poderemos ver que por trás
+                    do resultado final há <span class="sobre-p">meses de estudo</span> em <span class="sobre-p">elétrica
+                        básica e
+                        digital</span> tal como em <span class="sobre-p">programação aplicada</span>
+                </p>
+                </p>
+                <h6 class="text-center py-3">Tudo isso inserido dentro da tendência mundial de robótica
+                    educacional!
+                </h6>
+            </div>
+            <div class="col-12 col-sm-12 col-md-5 p-5">
+                <div class="ratio ratio-4x3">
+                    <iframe src="https://www.youtube.com/embed/fECD3tNE5dM" title="YouTube video"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery row align-items-center justify-content-center" id="galeria">
+            <h2 class="text-center mt-2 h2 col-12 p-5">Galeria</h2>
+            <div class="galeria col-11 flex-column mb-5 ">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="100">
+                            <img src="./images/fotoangulada.jpeg" class="d-block w-100" alt="Robo angulo">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="100">
+                            <img src="./images/fotofrente.jpeg" class="d-block w-100" alt="Robo frontal">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="100">
+                            <img src="./images/fototras.jpeg" class="d-block w-100" alt="Robo traseira">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="100">
+                            <img src="./images/fotolado1.jpeg" class="d-block w-100" alt="Robo traseira">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="100">
+                            <img src="./images/fototras.jpeg" class="d-block w-100" alt="Robo traseira">
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide galeria col-11 mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="ratio ratio-4x3">
+                            <iframe src="https://www.youtube.com/embed/fECD3tNE5dM" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="ratio ratio-4x3">
+                            <iframe src="https://www.youtube.com/embed/KubrrPgO0Z8" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+        <section class="row">
+            <div class="specs bg-container-1" id="especificacoes">
+                <h2 class="h2 text-center m-5 pb-4">Especificações</h2>
+                <p class="text-center text-light">O robô é composto por três principais partes:</p>
+                <div class="cards d-flex align-items-center justify-content-center mb-5 row">
+                    <div class="card  flex-column c mb-3 m-5 me-3 text-center col-11 col-sm-11 col-md-6 ">
+                        <div class="card-body justify-content-center">
+                            <h3 class="card-title text-center m-4">Estrutura e HArdware</h3>
+                            <p class="card-text">Nosso Robo foi construido em uma <span class="sobre-p">base de
+                                    mdf</span> de <span class="sobre-p">25cmx25cm</span>, <br> com <span
+                                    class="sobre-p">paredes
+                                    triangulares</span> medindo
+                                <span class="sobre-p">10cm
+                                    x
+                                    23cm x
+                                    25cm.</span> Ele é movido por <span class="sobre-p">dois motores</span> de <span
+                                    class="sobre-p">5v/150rpm</span> cada, com caixa de redução embutida.
+                                <br> O
+                                <span class="sobre-p">"cerebro"</span>
+                                do
+                                taldo
+                                destroça é um <span class="sobre-p">arduino uno</span>, acoplado a ele um <span
+                                    class="sobre-p">shild de motores</span> com capacidade de controlar
+                                ate 4
+                                motores.
+                                <br> O
+                                robô é <span class="sobre-p">controlado por um smartphone</span> via bluetooth, atráves
+                                de um <span class="sobre-p">módulo bluetooth hc 06.</span>
+                                <br>Para
+                                alimentar todo este monstrinho necessita de <span class="sobre-p">6 pilhas AA</span> de
+                                1.5v cada.
+                            </p>
+                            <p class="card-text ">
+                                <img src="images/hardware.jpg" class="card-img-bottom" alt="processador">
+                        </div>
+                    </div>
+                    <div class="card flex-column c col-11 col-sm-11 col-md-6 mb-3 m-5 me-3">
+                        <div class="card-body ">
+                            <h3 class="card-title text-center m-4">Arma</h3>
+                            <p class="card-text text-center">A arma é composta por:
+                                <br> Um
+                                <span class="sobre-p">motor
+                                    dc 5v/330rpm</span> o qual possui um palito com uma bola cheia de <span
+                                    class="sobre-p">agulhas</span> na ponta pronto para
+                                <span class="sobre-p">estourar</span>
+                                os
+                                balões
+                                dos adversários!
+                            </p>
+                            <p class="card-text">
+                                <img src="images/municao.jpg" class="card-img-bottom" alt="Munição">
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+
+        <section class="robocup row" id="robocup">
+            <div class="text-center d-flex align-items-center justify-content-center robocup-sec">
+                <div class="col-12 col-sm-12 col-md-4">
+                    <img class="robocup-img m-5" src="./images/robocup.jpg" alt="robocup-img">
+                </div>
+                <div class="robocup-txt col-12 col-sm-12 col-md-8">
+                    <h2>Robocup:</h2>
+                    <p>A <span class="sobre-p">Robocup</span> é a <span class="sobre-p">competição mais antiga</span> da
+                        FIAP. Alunos dos <span class="sobre-p">1°s anos</span> de Sistemas de Informação
+                        <span class="sobre-p">constroem robôs</span> para participar de <span
+                            class="sobre-p">duelos</span>, onde o <span class="sobre-p">principal objetivo</span> é
+                        <span class="sobre-p">estourar</span> o balão que o
+                        adversário carrega. Para isso, todas as máquinas possuem <span class="sobre-p">armas</span> em
+                        seu corpo.<br> A competição
+                        também <span class="sobre-p">exige</span> o <span class="sobre-p">funcionamento pleno</span> do
+                        robô. <br> Após estourar o balão do oponente, ele deve recolher
+                        sua arma, só assim é considerado o <span class="sobre-p">vencedor</span>.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center d-flex align-items-center justify-content-center pe-5 robocup-sec">
+                <div class="robocup-txt col-12 col-sm-12 col-md-8">
+                    <h2>Next:</h2>
+                    <p>O <span class="sobre-p">NEXT</span> é o Festival de <span class="sobre-p">Tecnologia</span> e
+                        <span class="sobre-p">Inovação</span> que reuniu, no ano de 2017, mais de <span
+                            class="sobre-p">dois mil jovens talentos</span> da FIAP apresentando suas
+                        <span class="sobre-p">melhores criações</span>: <span class="sobre-p">drones, robôs, conteúdos
+                            para VR devices, aplicativos mobiles e muito mais</span>. O
+                        evento citado acima foi realizado em 21/10/2017 na Casa das Caldeiras.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <img class="robocup-img m-5 pe-5" src="./images/next.jpg" alt="robocup-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="row grupo text-center d-flex align-items-center justify-content-center" id="grupo">
+            <h2 class="grupo-tittle mt-5">Equipe Destroça</h2>
+            <p class="mb-4 text-white">Nossa Equipe é formada por 5 membros, <br>construímos o robô e queremos que essa
+                iniciativa traga bons frutos e os compartilhemos com o mundo!</p>
+            <div class="accordion d-flex robocup-sec-2 align-items-center justify-content-center" id="accordionExample">
+                <div class="accordion-item my-2">
+                    <div class="">
+                        <h2 class="accordion-header text-center " id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Yann Santana
+                            </button>
+                        </h2>
+                        <img class="img-gp" src="./images/equipe/yann.jpg" alt="Foto Yann">
+                    </div>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                            <strong>Yann - Diretor tecnológico</strong>
+                            <p></p>
+                            <li> Aprendizado contínuo.</li>
+                            <li> Capacidade lógica avançada.</li>
+                            <li> Experiência em robótica e administração.</li>
+                            <li> Capacidade de inovação.</li>
+                            <li> Experiente em: Java, Css e Html.</li>
+                            <li> Idioma: Ingês avançado.</li>
+                            <li> Bacharelado em Sistemas de Informação pela FIAP.</li>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item my-2">
+                    <div class="">
+                        <h2 class="accordion-header text-center " id="headingTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                Ana Beatriz Souza
+                            </button>
+                        </h2>
+                        <img class="img-gp" src="./images/equipe/ana.jpeg" alt="Foto Ana">
+                    </div>
+                    <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                            <strong>Ana B. Souza - Diretora Criativa</strong>
+                            <p></p>
+                            <li> Flexibilidade e capacidade de se adaptar a mudanças.</li>
+                            <li> Pensamento crítico e analítico.</li>
+                            <li> Relacionamento interpessoal e empático.</li>
+                            <li> Capacidade de inovação.</li>
+                            <li> Técnico em Administração Pública.</li>
+                            <li> Criatividade.</li>
+                            <li> Experiente em: Java, Css, Html, Python, SQL, Git e Github.</li>
+                            <li> Idiomas: Ingês intermediário e espanhol avançado.</li>
+                            <li> Bacharelado em Sistemas de Informação pela FIAP.</li>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item my-2">
+                    <div class="">
+                        <h2 class="accordion-header text-center " id="headingThree">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Daniel Franceschi
+                            </button>
+                        </h2>
+                        <img class="img-gp" src="./images/equipe/daniel.jpeg" alt="Foto Daniel">
+
+                    </div>
+                    <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                            <strong>Daniel Franceschi - Diretor Financeiro</strong>
+                            <p></p>
+                            <li> Experiência em finanças e administração.</li>
+                            <li> Flexibilidade e capacidade de se adaptar a mudanças.</li>
+                            <li> Colaboração e trabalho em equipe.</li>
+                            <li> Capacidade lógica e matemática.</li>
+                            <li> Experiente em: Java, Css e Html.</li>
+                            <li> Idiomas: Ingês avançado e espanhol básico.</li>
+                            <li> Bacharelado em Sistemas de Informação pela FIAP.</li>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item my-2">
+                    <div class="">
+                        <h2 class="accordion-header text-center " id="headingFour">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                Davi Santana
+                            </button>
+                        </h2>
+                        <img class="img-gp" src="./images/equipe/davi.jpeg" alt="Foto Davi">
+                    </div>
+                    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                            <strong>Davi Santana - Diretor Comercial</strong>
+                            <p></p>
+                            <li> Inteligência emocional.</li>
+                            <li> Comunicação.</li>
+                            <li> Resolução de problemas.</li>
+                            <li> Mente analítica.</li>
+                            <li> Raciocínio lógico.</li>
+                            <li> Relacionamento interpessoal e empático.</li>
+                            <li> Experiência com: edição e manipulação de imagem, vetorização e tipografia.</li>
+                            <li> Experiente em: Java, Css e Html.</li>
+                            <li> Idiomas: Ingês intermediário.</li>
+                            <li> Bacharelado em Sistemas de Informação pela FIAP.</li>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item my-2">
+                    <div class="">
+                        <h2 class="accordion-header text-center " id="headingFive">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                                Luis Profiro
+                            </button>
+                        </h2>
+                        <img class="img-gp" src="./images/equipe/luis.jpeg" alt="Foto Luis">
+                    </div>
+                    <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-start">
+                            <strong>Luis Profiro - Diretor de Gestão</strong>
+                            <p></p>
+                            <li> Comunicação.</li>
+                            <li> Receptividade a feedbacks.</li>
+                            <li> Aprendizado contínuo.</li>
+                            <li> Relacionamento interpessoal e empático.</li>
+                            <li> Experiente em: Java, Css e Html.</li>
+                            <li> Idiomas: Ingês intermediário.</li>
+                            <li> Bacharelado em Sistemas de Informação pela FIAP.</li>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="row sobre align-items-center" id="edu"> 
+            <h2 class="text-center py-3 text-light"> Outros Robôs idealizados por nós!
+                </h2>
+            <div class="sobre-txt col-12 col-sm-12 col-md-7 d-flex flex-column
+                            align-items-center justify-content-center p-5"  >
+                <p></p>
+                <p></p>
+                <h6 class="text-center py-3"> Robô EduTech
+                </h6>
+                <p></p>
+                <p class="py-5 ps-5 mb-5 text-center bg">
+                    Nosso robô, o <span class="sobre-p">EduTech</span>, foi criado com o objetivo de <span class="sobre-p">auxiliar o aprendizado da criança</span> para que os dois o façam de forma
+                    autônoma e divertida <span class="sobre-p">integrando</span> diversos conhecimentos <span class="sobre-p">para além</span> da grade básica, ou seja, a <span class="sobre-p">criança poder programar</span> de
+                    forma simples o robô para que o mesmo a ajude nas disciplinas escolares <span class="sobre-p">sem necessariamente</span> estarem recebendo auxílio de
+                    um adulto.
+                </p>
+                </p>
+                
+            </div>
+            <div class="col-12 col-sm-12 col-md-5 p-5">
+                <img class="robocup-img-t m-5 pe-5" src="images/crirobot.jpg" alt="dificuldade pais educar">
+            </div>
+        </section>
+        <section class="row sobre align-items-center">
+            <h2 class="text-center py-3 text-light"> Dados
+                </h2>
+            <div class="o d-flex">
+                <div class="sobre-txt col-12 col-sm-12 col-md-7 d-flex flex-column
+                                align-items-center justify-content-center p-5"  >
+                
+                    
+                    <h6 class="text-center py-3"> A razão pela qual decedidos a criação do Robô, estão baseadas nos dados a seguir:
+                    </h6>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p class="py-5 ps-5 mb-5 text-center bg">
+                        O gráfico nós mostra que, em um total de 14 responsavéis, 9 percebem a dificuldade de seus filhos(as) nos estudos.
+                        <br>Devido a pandemia que ocorreu nos ultimos anos, esse numero aumentou drasticamente.
+
+                    </p>
+                    <p></p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3">
+                    <img class="robocup-img-g m-5 pe-5" src="images/dificuldade.jpeg" alt="dificuldade pais educar">
+                </div>
+            </div>
+            <div class="o d-flex">
+                <div class="sobre-txt col-12 col-sm-12 col-md-7 d-flex flex-column
+                                align-items-center justify-content-center p-5"  >
+                    <p class="py-5 ps-5 mb-5 text-center bg">
+                        Como visto no gráfico ao lado, no total de 11 pessoal consultadas somente 3 conseguem acompanhar os estudos do(s) seu(s)
+                        filho(as)
+                    </p>
+                    <p></p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3">
+                    <img class="robocup-img-g m-5 pe-5" src="images/auxiliar.jpeg" alt="auxiliar educação">
+                </div>
+            </div>
+
+            <div class="o d-flex">
+                <div class="sobre-txt col-12 col-sm-12 col-md-7 d-flex flex-column
+                                            align-items-center justify-content-center p-5"  >
+            
+            
+                    <h6 class="text-center py-3"> Qual a razão da robótica educacional?
+                    </h6>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p class="py-5 ps-5 mb-5 text-center bg">
+                        O investimento nesse ramo é grande igualmente com a chance de mudar o futuro da educação! <br>
+
+                    </p>
+                    <p></p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3">
+                    <img class="robocup-img-g m-5 pe-5" src="images/global.jpeg" alt="dados robótica educacional">
+                </div>
+            </div>
+        </section>
+
+        <section class="row sobre align-items-center">
+            <h2 class="text-center py-3 text-light"> Prós e Contras
+            </h2>
+            <div class="o d-flex">
+                <div class="sobre-txt col-12 col-sm-12 col-md-3 d-flex flex-column
+                                                        align-items-center justify-content-center p-5"  >
+            
+            
+                    <h6 class="text-center py-3"> Prós:
+                    </h6>
+                    
+                    <p></p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-7 text-light">
+                    <p class="py-5 ps-5 mb-5 text-center bg">
+                    A robótica educacional promove aos estudantes de <span class="sobre-p">todas as idades</span> o contato com a <span class="sobre-p">robótica e programação</span> desde muito cedo
+                    em suas vidas, instigando assim <span class="sobre-p">hard e soft skills essenciais</span> para seus futuros. <br> O mercado de <span class="sobre-p">robótica pedagógica</span> vem
+                    em crescimento exponencial em locais como: <span class="sobre-p">Ásia, Israel e Eua</span> por exemplo, e ainda se mostra uma área pouco explorada em
+                    nosso país, por isso nós da <span class="sobre-p">Otaldo Destroça</span> trazemos uma proposta para implementar essa forma educacional no Brasil.
+                    <br>Trabalhamos e testamos <span class="sobre-p">metódos</span> educacionais e observamos que o <span class="sobre-p"><>melhor caminho/span para por em prática e medir os resultados
+                    esperados é trabalhar em conjunto com os <span class="sobre-p">mestres: professores.</span>
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="o d-flex">
+                <div class="sobre-txt col-12 col-sm-12 col-md-3 d-flex flex-column
+                                                        align-items-center justify-content-center p-5"  >
+            
+            
+                    <h6 class="text-center py-3"> Contras:
+                    </h6>
+                    
+                    <p></p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-7 text-light">
+                    <p class="py-5 ps-5 mb-5 text-center bg">
+                    O gasto com o reparo e construção do robô é grande, principalmente por estarmos no começo e termos poucos investidoes. 
+                    <br>Há que levar em conta a etapa de preparaçãp, ou melhor dizendo, versão Beta do robô. Pois colocaremos o projeto em prática, em sua fase inicial nas escolas, onde poderemos contar com o apoio crítico de
+                    professores com anos de experiência com crianças e educação, e assim testar a efetividade do robô juntamente com a
+                    análise dos resultados e pontos a melhorar.
+                    <br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="row form bg-container-1 d-flex align-items-center justify-content-center text-center"
+            id="contato">
+            <h2 class="m-5 p-3 text-white">Venha investir Conosco</h2>
+            <form>
+                <div class="p-5 d-flex row text-start form-text">
+                    <div class="col-12 col-sm-11 col-md-6 mb-4">
+                        <label for="1nome" class="mb-1">Nome</label>
+                        <input type="text" class="form-control" placeholder="Josenildo" aria-label="First name"
+                            id="1nome">
+                    </div>
+                    <div class="col-12 col-sm-11 col-md-6 mb-4">
+                        <label for="2nome" class="mb-1">Sobrenome</label>
+                        <input type="text" class="form-control" placeholder="da Silva" aria-label="Last name"
+                            id="2nome">
+                    </div>
+
+                    <div class="col-12 mb-4">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="seu E-mail aqui">
+                    </div>
+                    <div class="col-12 mb-4">
+                        <label for="achou" class="mb-1">Por onde nos encontrou?</label>
+                        <input type="text" class="form-control" placeholder="Ex.: Pela Fiap" id="achou">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" class="form-control" placeholder="Mensagem"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-form col-12 col-md-1 text-center">Submit</button>
+                </div>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="row text-center">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" class="logo m-5"></a>
+                <ul class="d-flex justify-content-center row ">
+                    <li class="footer-item">
+                        <a class="footer-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="#galeria">Galeria</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="#especificacoes">Especificações</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="#robocup">Robocup e Next</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="#grupo">Quem está por trás</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="#edu">Outros robôs</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
